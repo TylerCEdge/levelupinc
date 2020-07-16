@@ -1,0 +1,12 @@
+.card {
+  margin: auto;
+  text-align: center;
+  background-color: #333;
+  color: whitesmoke;
+
+  box-shadow: 0 5px 8px rgba(190, 0, 0, 0.808);
+}
+
+.row {
+  height: 100vh;
+}

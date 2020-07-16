@@ -5,12 +5,14 @@ import './Games.css';
 import Overlay from '../../shared/components/UIElements/Overlay';
 import CenteredContainer from '../../shared/components/UIElements/CenteredContainer';
 
+import Card from '../../shared/components/UIElements/Card';
+
 export default function Games() {
   return (
-    <React.Fragment>
-      <Overlay>
-        <CenteredContainer>Games</CenteredContainer>
-      </Overlay>
-    </React.Fragment>
+    <Overlay>
+      <CenteredContainer>
+        <Card />
+      </CenteredContainer>
+    </Overlay>
   );
 }
