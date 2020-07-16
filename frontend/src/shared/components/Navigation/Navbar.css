@@ -1,12 +1,16 @@
 nav {
-    background-color: #000;
-    opacity: 0.7;
+  background-color: #000;
+  opacity: 0.7;
 }
 
 a {
-    color: #fe0201;
+  color: #fe0201;
 }
 
 a:hover {
-    color: orange;
+  color: lightgoldenrodyellow;
+}
+
+a:focus {
+  color: lightgoldenrodyellow;
 }

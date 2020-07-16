@@ -1,3 +1,17 @@
 .btn {
-  margin-left: 50px;
+  background-color: transparent;
+  border-color: #fe0201;
+  color: #fe0201;
+}
+
+.btn:hover {
+  background-color: #fe0201;
+  color: lightgoldenrodyellow;
+  border-color: transparent;
+}
+
+.btn:focus {
+  background-color: #fe0201;
+  color: lightgoldenrodyellow;
+  border-color: transparent;
 }

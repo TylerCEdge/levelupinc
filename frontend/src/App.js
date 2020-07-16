@@ -6,7 +6,7 @@ import {
   Switch,
 } from 'react-router-dom';
 
-import Users from './user/pages/Users';
+import Home from './shared/components/Home';
 
 import Navbar from './shared/components/Navigation/Navbar';
 
@@ -16,7 +16,7 @@ function App() {
       <Navbar />
       <Switch>
         <Route path='/' exact>
-          <Users />
+          <Home />
         </Route>
         <Route path='/games' exact></Route>
         <Route path='/features' exact></Route>

@@ -1,8 +1,10 @@
 import React from 'react';
 
+import './Button.css';
+
 export default function Button(props) {
   return (
-    <button className='btn btn-outline-danger' type='submit'>
+    <button className='btn' type='submit'>
       {props.children}
     </button>
   );
