@@ -8,9 +8,42 @@ a {
 }
 
 a:hover {
-  color: lightgoldenrodyellow;
+  color: #cdcdcd;
 }
 
 a:focus {
+  color: #cdcdcd;
+}
+
+.navbar-brand {
+  color: #fe0201;
+  background-color: transparent;
+  box-shadow: 0 5px 8px rgba(255, 38, 0, 0.808);
+  animation: pulse 5s infinite;
+}
+
+.navbar-brand:hover {
   color: lightgoldenrodyellow;
+}
+
+.navbar-brand:focus {
+  color: lightgoldenrodyellow;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 5px 8px rgba(255, 38, 0, 0.808);
+  }
+  25% {
+    box-shadow: 0 5px 8px rgba(247, 91, 0, 0.808);
+  }
+  50% {
+    box-shadow: 0 5px 8px rgba(252, 124, 5, 0.808);
+  }
+  75% {
+    box-shadow: 0 5px 8px rgba(247, 91, 0, 0.808);
+  }
+  100% {
+    box-shadow: 0 5px 8px rgba(255, 38, 0, 0.808);
+  }
 }

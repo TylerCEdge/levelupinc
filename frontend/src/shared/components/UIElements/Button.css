@@ -6,12 +6,12 @@
 
 .btn:hover {
   background-color: #fe0201;
-  color: lightgoldenrodyellow;
+  color: #cdcdcd;
   border-color: transparent;
 }
 
 .btn:focus {
   background-color: #fe0201;
-  color: lightgoldenrodyellow;
+  color: #cdcdcd;
   border-color: transparent;
 }

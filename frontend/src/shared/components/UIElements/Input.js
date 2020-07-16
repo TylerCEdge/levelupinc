@@ -3,5 +3,9 @@ import React from 'react';
 import './Input.css';
 
 export default function Input(props) {
-  return <input type='text'>{props.children}</input>;
+  return (
+    <input type='text' placeholder={props.placeholder}>
+      {props.children}
+    </input>
+  );
 }

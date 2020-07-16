@@ -11,8 +11,10 @@ export default function Home() {
     <React.Fragment>
       <Overlay>
         <CenteredContainer>
-          <Input />
-          <Button>Search</Button>
+          <Input placeholder='Search for a game...' />
+          <Button className='btn' type='submit'>
+            Search
+          </Button>
         </CenteredContainer>
       </Overlay>
     </React.Fragment>

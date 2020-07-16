@@ -5,7 +5,7 @@ import './Navbar.css';
 export default function Navbar() {
   return (
     <nav className='navbar navbar-expand-lg'>
-      <button className='navbar-brand btn btn-outline-danger' href='/'>
+      <button className='navbar-brand btn' href='/'>
         <h4>⁜ Level Up Inc. ⁜</h4>
       </button>
       <button

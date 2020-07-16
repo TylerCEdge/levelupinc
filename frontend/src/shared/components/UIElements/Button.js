@@ -4,7 +4,11 @@ import './Button.css';
 
 export default function Button(props) {
   return (
-    <button className='btn' type='submit'>
+    <button
+      className={props.className}
+      type={props.type}
+      onclick={props.onClick}
+    >
       {props.children}
     </button>
   );
