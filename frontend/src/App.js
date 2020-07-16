@@ -8,13 +8,21 @@ import {
 
 import Users from './user/pages/Users';
 
+import Navbar from './shared/components/Navigation/Navbar';
+
 function App() {
   return (
     <Router>
-      <Route path='/' exact>
-        <Users />
-      </Route>
-      <Redirect to='/' />
+      <Navbar />
+      <Switch>
+        <Route path='/' exact>
+          <Users />
+        </Route>
+        <Route path='/games' exact></Route>
+        <Route path='/features' exact></Route>
+        <Route path='/pricing' exact></Route>
+        <Redirect to='/' />
+      </Switch>
     </Router>
   );
 }
