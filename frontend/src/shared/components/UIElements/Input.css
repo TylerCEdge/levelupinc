@@ -1,0 +1,10 @@
+input {
+  background: #000;
+  color: orange;
+  margin-right: 0.5rem;
+  border-color: #fe0201;
+}
+
+input:focus {
+  outline: none;
+}
