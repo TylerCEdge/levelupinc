@@ -8,6 +8,10 @@ import {
 
 import Home from './shared/components/Home';
 
+import Games from './games/pages/Games';
+import Features from './features/pages/Features';
+import Pricing from './pricing/pages/Pricing';
+
 import Navbar from './shared/components/Navigation/Navbar';
 
 function App() {
@@ -18,9 +22,15 @@ function App() {
         <Route path='/' exact>
           <Home />
         </Route>
-        <Route path='/games' exact></Route>
-        <Route path='/features' exact></Route>
-        <Route path='/pricing' exact></Route>
+        <Route path='/games' exact>
+          <Games />
+        </Route>
+        <Route path='/features' exact>
+          <Features />
+        </Route>
+        <Route path='/pricing' exact>
+          <Pricing />
+        </Route>
         <Redirect to='/' />
       </Switch>
     </Router>
