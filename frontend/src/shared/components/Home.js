@@ -12,6 +12,7 @@ export default function Home(props) {
   function submitHandler(e) {
     e.preventDefault();
     console.log(`Searching for:... ${name}.`);
+    setName('');
   }
   return (
     <React.Fragment>
