@@ -1,0 +1,9 @@
+.card {
+  margin: auto;
+  margin-bottom: 15px;
+  text-align: center;
+  background-color: rgba(8, 8, 8, 0.6);
+  color: lightgoldenrodyellow;
+
+  box-shadow: 0 5px 8px rgba(190, 0, 0, 0.808);
+}
