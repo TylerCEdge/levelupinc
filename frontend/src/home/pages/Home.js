@@ -1,17 +1,17 @@
 import React, { useState } from 'react';
 
-import CenteredContainer from './UIElements/CenteredContainer';
-import Overlay from './UIElements/Overlay';
+import CenteredContainer from '../../shared/components/UIElements/CenteredContainer';
+import Overlay from '../../shared/components/UIElements/Overlay';
 
-import Button from './UIElements/Button';
-import Input from './UIElements/Input';
+import Button from '../../shared/components/UIElements/Button';
+import Input from '../../shared/components/FormElements/Input';
 
 export default function Home(props) {
   const [name, setName] = useState('');
 
   function submitHandler(e) {
     e.preventDefault();
-    console.log(`Searching for:... ${name}.`);
+    alert(`Searching for:... ${name}.`);
     setName('');
   }
   return (

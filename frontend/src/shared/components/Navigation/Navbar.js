@@ -9,11 +9,11 @@ export default function Navbar() {
         <h4>⁜ Level Up Inc. ⁜</h4>
       </button>
       <button
-        className='navbar-toggler'
+        className='navbar-toggler btn'
         type='button'
         data-toggle='collapse'
-        data-target='/navbarNav'
-        aria-controls='navbarNav'
+        data-target='#navbarNav'
+        aria-controls='#navbarNav'
         aria-expanded='false'
         aria-label='Toggle navigation'
       >
